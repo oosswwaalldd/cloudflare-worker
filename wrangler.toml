@@ -1,0 +1,8 @@
+name = "test-app"
+type = "webpack"
+account_id = "a1bf036cddee9f010a44851952ee11ff"
+workers_dev = true
+route = ""
+zone_id = "f70fd2920caf46f283178bb06cbe9415"
+usage_model = ""
+webpack_config = "webpack.config.js"

@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Oswald Reyes <oosswwaalldd@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "webpack": "^5.33.2"
+  },
+  "dependencies": {
+    "@cloudflare/wrangler": "^1.15.1",
+    "google-spreadsheet": "^3.1.15"
+  }
+}
