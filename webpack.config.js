@@ -16,7 +16,7 @@ module.exports = {
     ignored: /node_modules|dist|\.js/g,
   },
 
-  devtool: 'eval-cheap-module-source-map',
+  devtool: 'source-map',
 
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],
